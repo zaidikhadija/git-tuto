@@ -1,0 +1,14 @@
+.btn-outline-success:hover {
+    color: #fff;
+    background-color: #871966;
+    border-color: #871966;
+}
+.btn-outline-success {
+    color: #871966;
+    border-color: #871966;
+}
+.flex-container {
+    display: flex;
+    justify-content: space-between;
+    
+  }

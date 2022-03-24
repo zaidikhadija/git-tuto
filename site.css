@@ -1,3 +1,5 @@
+
+
 .btn-outline-success:hover {
     color: #fff;
     background-color: #871966;
@@ -7,8 +9,35 @@
     color: #871966;
     border-color: #871966;
 }
-.flex-container {
-    display: flex;
+.one{
+    margin-top: 75px;
+    background-color: ghostwhite;
+}
+.input-group{
+    width: 50%;
+}
+.container-flex{
+    display:flex;
     justify-content: space-between;
-    
-  }
+}
+.btn-outline-secondary{
+color: #871966;
+}
+.two{
+    margin-top: 75px;
+}
+.quality{
+    color:#871966;
+}
+.three{
+    margin-top: 75px;
+}
+a{
+    color:#871966
+}
+.four{
+    margin-top: 30%;
+}
+.img1{
+    margin-top: 75px;
+}

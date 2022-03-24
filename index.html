@@ -1,65 +1,176 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
     <link rel="stylesheet" href="site.css">
     <title>Site</title>
 
 </head>
+
 <body>
-    <!--<div class="flex-container">
-        <div>1</div>
-        <div>2</div>
-        <div>3</div>  
-      </div>-->
-    
-   
-   
-    <div ><nav class="navbar navbar-expand-lg navbar-light bg-light">
-        
-        
-          <div><a class="navbar-brand" href="#">RAED F</a>
-          
-         </div>
-          <div class="collapse navbar-collapse" id="navbarNav">
-            <ul class="navbar-nav">
-              <li class="nav-item">
-               <a class="nav-link active" aria-current="page" href="#">Home</a>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link" href="#">Services</a>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link" href="#">Testimonals</a>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link disabled">Team</a>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link disabled">Pricing</a>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link disabled">Faq</a>
-              </li>
-              </ul></div>
-              
-            
-            <div>  <button class="btn-outline-success" type="submit">Sign In</button></div>
-      </nav>
-    
-    </div> 
-    <section>
+
+    <nav class="navbar navbar-expand-lg navbar-light bg-light">
+        <div class="container">
+            <div>
+            <a class="navbar-brand" href="#">RAED F</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false"
+                aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            </div>
+
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                    <li class="nav-item">
+                        <a class="nav-link active" aria-current="page" href="#">Home</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">Services</a>
+                    </li>
+
+                    <li class="nav-item">
+                        <a class="nav-link disabled">Testimonials</a>
+                    </li>
+
+                    <li class="nav-item">
+                        <a class="nav-link disabled">Team</a>
+                    </li>
+
+                    <li class="nav-item">
+                        <a class="nav-link disabled">Pricing</a>
+                    </li>
+
+                    <li class="nav-item">
+                        <a class="nav-link disabled">Faq</a>
+                    </li>
+
+                </ul>
+                <div>
+                <form class="d-flex">
+
+                    <button class="btn btn-outline-success " type="submit">Sign In</button>
+                </form>
+                </div>
+            </div>
+        </div>
+    </nav>
+
+  
+    <section class="one">
  <div class="container">
-    <img src="https://agencymain.gatsbyjs.io/static/3afdfb5be55e0037082983dac4cfe867/4cfbe/banner-image-1-1.png" width=30% align="right">
-        <h3>Great software is <br>built with amazing<br> developers</h3>
-        <p>We help build and manage a team of world-class<br> developers to bring your vision to life</p>
-        
-    </div>
-</section>
+    <img src="https://agencymain.gatsbyjs.io/static/3afdfb5be55e0037082983dac4cfe867/4cfbe/banner-image-1-1.png" width=50% align="right">
     
 
+    <div class="container">
+    <div>
+        <h1>Great software is <br>  built with amazing <br> developers</h1>
+        <p> <br> We help build and manage a team of world-class <br>developers to bring your vision to life <br> <br> <br> <br></p>
+     </div>
+        
+     </div>
+    
+     <div class="input-group" >
+    
+        <input type="text" class="form-control" placeholder="Subscribe newsletter" aria-label="Recipient's username with two button addons">
+        <button class="btn btn-outline-secondary" type="button">Subscribe</button>
+    </div>
+    <div class="container-flex">
+        <div><p>Powred By:</p></div>
+        
+        <div><img src="data:image/png;base64,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"></div>
+        <div><img src="data:image/png;base64,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"></div>
+        </div>
+</div>
+
+
+</section>
+<section class="two">
+    <center><h3 class="quality">Quality features</h3>
+        <br><br>
+        <h1>Meet exciting feature of app</h1></center>
+        <div class="container">
+        <div class="container-flex">
+            
+        <div class="card1">
+            <img src="https://www.gardeningknowhow.com/wp-content/uploads/2019/09/flower-color-400x391.jpg" width="70%">
+        <h6>Unlimited Customization</h6>
+        <p>Get your blood tests delivered <br>at home collect a sample from <br>the your blood tests.<br></p>
+        
+        </div>
+        <div class="card2">
+            <img src="https://www.gardeningknowhow.com/wp-content/uploads/2019/09/flower-color-400x391.jpg" width="70%">
+        <h6>Vector shape & resizable</h6>
+        <p>Get your blood tests delivered <br>at home collect a sample from <br>the your blood tests.<br></p>
+        
+        </div>
+        <div class="card3">
+            <img src="https://www.gardeningknowhow.com/wp-content/uploads/2019/09/flower-color-400x391.jpg" width="70%">
+        <h6>Editing freedom</h6>
+        <p>Get your blood tests delivered <br>at home collect a sample from <br>the your blood tests.<br></p>
+        
+        </div>
+        <div class="card4">
+            <img src="https://www.gardeningknowhow.com/wp-content/uploads/2019/09/flower-color-400x391.jpg" width="70%">
+        <h6>Best Award history</h6>
+        <p>Get your blood tests delivered <br>at home collect a sample from <br>the your blood tests.<br></p>
+        
+        </div>
+   
+
+</section>
+<section class="three">
+    <div class="container">
+    <img src="https://agencymain.gatsbyjs.io/static/boost-1-1-cbbaec359e68e7a94c96ada036d4ebc4.png"align="left" >
+
+</div>
+<div class="container">
+    <h1>Boost your agencies by<br> choosing Ninja Developers</h1>
+    <p>Create custom landing pages with Shades that convert more<br> visitors than any website, no coding required.</p>
+
+
+
+<ul aria-checked="true">
+
+    <li> Unlimited design possibility</li>
+    
+       <li> Completely responsive features</li>
+    
+    <li>Easy to customize plugins</li>
+</ul>
+<a href="target-blank">Learn more ></a>
+</div>
+</div>
+
+
+</section>
+
+
+<section class="four">
+    <div class="container">
+
+    <center><h3 class="leading">Leading companies trust us<br>
+        to develop software</h3>
+        <br><br>
+    <p>We believe it’s important for everyone to have access to software<br>
+            especially when it comes to digital learning be navigate.</p>
+<a href="one">Explore Details ></a><br>
+
+
+<img class="img1" src="https://agencymain.gatsbyjs.io/static/video-a2450dd1f158ef73369e96372325db74.png" width="80%">
+<p>Customer Comments</p>
+<h1>Why customers love us</h1>
+
+</center>
+</div>
 </body>
+
 </html>
+
+
+    
